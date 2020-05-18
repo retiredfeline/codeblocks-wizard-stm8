@@ -24,7 +24,7 @@ function BeginWizard()
 
         Wizard.AddInfoPage(_T("STM8Intro"), intro_msg);
         Wizard.AddProjectPathPage();
-        Wizard.AddCompilerPage(_T("SDCC Compiler"), _T("sdcc*;keil*;iar8051"), true, true);
+        Wizard.AddCompilerPage(_T("SDCC Compiler"), _T("sdcc*"), true, true);
         Wizard.AddPage(_T("memoryModelChoice"));
     }
     else
